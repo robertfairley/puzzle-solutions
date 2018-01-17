@@ -2,7 +2,7 @@
  *	Program array-missing-value.c
  *
  *	This problem was posed to me at an interview
- *	in Toronto, October 2017.
+ *	in Toronto.
  *
  *	## The problem:
  *
@@ -47,7 +47,7 @@ void modify_array (int array_new[], int rand)
 	array_new[rand] = 0;
 }
 
-int sum_array(int array[])
+int sum_array (int array[])
 {
 	int i, sum;
 	sum = 0;
@@ -58,7 +58,7 @@ int sum_array(int array[])
 	return sum;
 }
 
-int check_difference(int array_initial[], int array_modified[])
+int check_difference (int array_initial[], int array_modified[])
 {
 	int sum_initial, sum_modified, difference;
 
