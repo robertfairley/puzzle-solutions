@@ -3,7 +3,6 @@
  */
 import std.stdio;
 import std.random;
-import std.datetime;
 
 /** Constants */
 enum ARRAY_LIMIT = 100;
@@ -55,7 +54,7 @@ void populate_arrays (int[] array_initial, int[] array_modified)
 	size_t i;
 
 	for (i = 0; i < ARRAY_LIMIT; ++i) {
-		array_initial[i] = cast(int)i + 1;
+		array_initial[i]  = cast(int)i + 1;
 		array_modified[i] = cast(int)i + 1;
 	}
 }
