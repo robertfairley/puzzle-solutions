@@ -21,7 +21,7 @@ void main ()
 
 	/** Get a random integer */
 	set_rand.seed(unpredictableSeed);
-	random_int = set_rand.front % 100;
+	random_int = set_rand.front % ARRAY_LIMIT;
 
 	/** Populate te arrays and modify the second */
 	populate_arrays(array_one, array_two);
