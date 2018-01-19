@@ -53,7 +53,7 @@ int sum_array (int array[])
 	sum = 0;
 
 	for (i = 0; i < ARRAY_LIMIT; ++i)
-		sum = sum + array[i];
+		sum += array[i];
 
 	return sum;
 }
