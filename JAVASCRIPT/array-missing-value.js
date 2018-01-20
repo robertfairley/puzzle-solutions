@@ -2,8 +2,9 @@ const ARRAY_LIMIT = 100;
 const SEED        = new Date();
 
 function main() {
-	let arrayOne = new Array(ARRAY_LIMIT);
-	let arrayTwo = new Array(ARRAY_LIMIT);
+	const arrayOne = new Array(ARRAY_LIMIT);
+	const arrayTwo = new Array(ARRAY_LIMIT);
+	
 	let randomInteger, answer, i;
 
 	randomInteger = Math.floor(
