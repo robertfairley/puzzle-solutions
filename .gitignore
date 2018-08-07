@@ -1,3 +1,10 @@
-# Ignore These Files
+# Ignore these files
 .DS_Store
 *.o
+
+# Temporarily ignore these files and directories
+/GO/
+/C/server.c
+/JAVASCRIPT/node_modules/
+/JAVASCRIPT/serverFiles/
+/TYPESCRIPT/node_modules/
